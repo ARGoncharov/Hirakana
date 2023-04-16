@@ -11,6 +11,8 @@
 		8AAC2E8529EC1BE70077731F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC2E8429EC1BE70077731F /* ContentView.swift */; };
 		8AAC2E8729EC1BE80077731F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC2E8629EC1BE80077731F /* Assets.xcassets */; };
 		8AAC2E8A29EC1BE80077731F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC2E8929EC1BE80077731F /* Preview Assets.xcassets */; };
+		8AAC2E9229EC1D460077731F /* ChangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC2E9129EC1D460077731F /* ChangeButton.swift */; };
+		8AAC2E9429EC1F050077731F /* KanaTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAC2E9329EC1F050077731F /* KanaTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8AAC2E8429EC1BE70077731F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8AAC2E8629EC1BE80077731F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AAC2E8929EC1BE80077731F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AAC2E9129EC1D460077731F /* ChangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeButton.swift; sourceTree = "<group>"; };
+		8AAC2E9329EC1F050077731F /* KanaTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanaTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		8AAC2E8129EC1BE70077731F /* Hirakana */ = {
 			isa = PBXGroup;
 			children = (
+				8AAC2E9029EC1D390077731F /* Views */,
 				8AAC2E8229EC1BE70077731F /* HirakanaApp.swift */,
 				8AAC2E8429EC1BE70077731F /* ContentView.swift */,
 				8AAC2E8629EC1BE80077731F /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				8AAC2E8929EC1BE80077731F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AAC2E9029EC1D390077731F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AAC2E9129EC1D460077731F /* ChangeButton.swift */,
+				8AAC2E9329EC1F050077731F /* KanaTitle.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			files = (
 				8AAC2E8529EC1BE70077731F /* ContentView.swift in Sources */,
 				8AAC2E8329EC1BE70077731F /* HirakanaApp.swift in Sources */,
+				8AAC2E9229EC1D460077731F /* ChangeButton.swift in Sources */,
+				8AAC2E9429EC1F050077731F /* KanaTitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
